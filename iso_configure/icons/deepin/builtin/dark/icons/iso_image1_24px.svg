@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>iso定制工具-24px</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-15.9%" y="-25.0%" width="140.9%" height="150.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#4EFFD8" offset="0%"></stop>
+            <stop stop-color="#00A29F" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-61.5%" y="-53.3%" width="223.1%" height="206.7%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0.4549649   0 0 0 0 0.409478353  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#CBFEF3" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#CBFEF3" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="iso定制工具-24px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ISO镜像定制工具-256px" filter="url(#filter-1)" transform="translate(1.000000, 1.000000)" fill-rule="nonzero">
+            <circle id="Oval" fill="url(#linearGradient-2)" cx="11" cy="11" r="11"></circle>
+            <g id="编组" filter="url(#filter-3)" transform="translate(5.375000, 3.937500)">
+                <path d="M5.62513927,0.0625 C9.49113252,0.0625 12.6251393,3.19650675 12.6251393,7.0625 C12.6251393,10.9284932 9.49113252,14.0625 5.62513927,14.0625 L5.625,13.0625 L5.625,13.0625 C8.93870849,13.0625 11.625,10.3762085 11.625,7.0625 C11.625,3.7487915 8.93870849,1.0625 5.625,1.0625 L5.62513927,0.0625 L5.62513927,0.0625 Z M5.625,2.0625 C8.38642374,2.0625 10.625,4.30107625 10.625,7.0625 C10.625,9.82392374 8.38642374,12.0625 5.625,12.0625 L5.625,9.0625 L5.625,9.0625 C6.7295695,9.0625 7.625,8.1670695 7.625,7.0625 C7.625,5.9579305 6.7295695,5.0625 5.625,5.0625 L5.625,2.0625 L5.625,2.0625 Z" id="形状结合" fill="url(#linearGradient-4)"></path>
+                <path d="M0.625,0.5625 C0.625,0.286357625 0.848857625,0.0625 1.125,0.0625 L4.625,0.0625 L4.625,14.0625 L1.125,14.0625 C0.848857625,14.0625 0.625,13.8386424 0.625,13.5625 L0.625,13.0625 L1.4375,13.0625 C1.71364237,13.0625 1.9375,12.8386424 1.9375,12.5625 C1.9375,12.2863576 1.71364237,12.0625 1.4375,12.0625 L1.4375,12.0625 L0.625,12.0625 L0.625,11.0625 L1.4375,11.0625 C1.71364237,11.0625 1.9375,10.8386424 1.9375,10.5625 C1.9375,10.2863576 1.71364237,10.0625 1.4375,10.0625 L1.4375,10.0625 L0.625,10.0625 L0.625,9.0625 L2.5625,9.0625 C2.83864237,9.0625 3.0625,8.83864237 3.0625,8.5625 C3.0625,8.28635763 2.83864237,8.0625 2.5625,8.0625 L2.5625,8.0625 L0.625,8.0625 L0.625,7.0625 L1.4375,7.0625 C1.71364237,7.0625 1.9375,6.83864237 1.9375,6.5625 C1.9375,6.28635763 1.71364237,6.0625 1.4375,6.0625 L1.4375,6.0625 L0.625,6.0625 L0.625,5.0625 L1.4375,5.0625 C1.71364237,5.0625 1.9375,4.83864237 1.9375,4.5625 C1.9375,4.28635763 1.71364237,4.0625 1.4375,4.0625 L1.4375,4.0625 L0.625,4.0625 L0.625,3.0625 L2.5625,3.0625 C2.83864237,3.0625 3.0625,2.83864237 3.0625,2.5625 C3.0625,2.28635763 2.83864237,2.0625 2.5625,2.0625 L2.5625,2.0625 L0.625,2.0625 L0.625,0.5625 Z" id="形状结合" fill="url(#linearGradient-5)"></path>
+            </g>
+        </g>
+    </g>
+</svg>
