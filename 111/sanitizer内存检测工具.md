@@ -96,7 +96,7 @@
 
 执行结果如下：
 
-![img](file:////tmp/wps-yaphetshl/ksohtml/wpsU2NxS8.jpg) 
+![image-a](/home/yaphetshl/Desktop/git/111/img/image-a.png)
 
 第一部分（ERROR）指出错误类型是heap-use-after-free；
 
@@ -120,7 +120,7 @@
 
 执行结果如下：
 
-![img](file:////tmp/wps-yaphetshl/ksohtml/wpsJH7LY9.jpg) 
+![image-b](/home/yaphetshl/Desktop/git/111/img/image-b.png)
 
 错误类型是detected memory leaks，array对象在程序退出时未释放，有5个字节泄露。
 
@@ -140,7 +140,7 @@
 
 ​        执行结果如下：
 
-![img](file:////tmp/wps-yaphetshl/ksohtml/wpstEB34a.jpg) 
+![image-c](/home/yaphetshl/Desktop/git/111/img/image-c.png) 
 
 ​        错误类型是heap-use-after-free堆缓冲区溢出，发生的位置是main.cpp:13:17。
 
@@ -188,7 +188,7 @@
 
 ​      执行结果如下：
 
-![img](file:////tmp/wps-yaphetshl/ksohtml/wpsNg0pbc.jpg) 
+![image-d](/home/yaphetshl/Desktop/git/111/img/image-d.png) 
 
 ​       错误类型为use-of-uninitialized-value使用未初始化的值，产生原因：变量申请内存后未赋初始化值，发生的位置main.cpp:13:9。
 
@@ -250,9 +250,7 @@
 
 ​         16. } 
 
-​         执行结果如下：
-
-![img](file:////tmp/wps-yaphetshl/ksohtml/wps9xYThd.jpg) 
+​         执行结果如下：         ![image-e](/home/yaphetshl/Desktop/git/111/img/image-e.png) 
 
 ​         错误类型为data race数据争用，产生原因：两个线程同时修改全局变量Global的值，导致数据发生争用，thread T2发生的位置main.cpp:18:9，thread T1发生的位置main.cpp:13:9。
 
@@ -302,9 +300,7 @@
 
 ​        5. } 
 
-​        执行结果如下：
-
-![img](file:////tmp/wps-yaphetshl/ksohtml/wpsW0rtoe.jpg) 
+​        执行结果如下：![image-f](/home/yaphetshl/Desktop/git/111/img/image-f.png) 
 
 ​        错误类型是有符号整数溢出，2147483647 + 1会导致超出int数据范围。
 
